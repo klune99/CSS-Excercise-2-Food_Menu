@@ -1,0 +1,117 @@
+/* Base styles */
+html {
+    background-color: hsl(0, 0%, 70%);
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page header */
+.page-name {
+    color: white;
+    margin: 0;
+    padding: 12px 18px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Main menu list */
+.menu {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Course sections (Breakfast, Lunch, Dinner) */
+.course {
+    background-color: #ffffff;
+    border: 2px solid #222;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px 18px;
+}
+
+.course-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+}
+
+.course-hours {
+    font-size: 0.8rem;
+    color: #555;
+    margin: 0 0 12px 0;
+}
+
+/* Dishes list within each course */
+.course-dishes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Individual dish cards */
+.dish {
+    background-color: rgb(224, 223, 223);
+    border: 2px solid #222;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+}
+
+.dish:last-child {
+    margin-bottom: 0;
+}
+
+.dish-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    color: #333;
+}
+
+/* Ingredients list - square bullets */
+.ingredients {
+    list-style-type: square;
+    margin: 0 0 8px 0;
+    padding-left: 22px;
+}
+
+.ingredients li {
+    margin-bottom: 1px;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* Horizontal rule separator */
+.separator {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 12px 0;
+}
+
+/* Tags list - horizontal inline-block layout */
+.tags {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tags li {
+    display: inline-block;
+}
+
+/* Individual tag styling */
+.tag {
+    background-color: #ddd;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 3px 8px;
+    margin-right: 6px;
+    font-size: 0.75rem;
+    color: #333;
+}
